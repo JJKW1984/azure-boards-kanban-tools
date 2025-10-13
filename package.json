@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "applicationinsights-js": "^1.0.20",
-    "azure-devops-extension-api": "~1.157.0",
+    "azure-devops-extension-api": "~4.261.0",
     "azure-devops-extension-sdk": "~2.0.11",
     "azure-devops-ui": "~2.164.0",
     "react": "~16.13.1",
