@@ -40,7 +40,7 @@
     "file-loader": "^6.2.0",
     "rimraf": "~3.0.2",
     "sass": "^1.49.9",
-    "sass-loader": "^10.1.1",
+    "sass-loader": "^16.0.6",
     "style-loader": "^1.2.1",
     "tfx-cli": "^0.16.0",
     "ts-loader": "^5.2.2",
