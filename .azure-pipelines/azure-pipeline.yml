@@ -8,7 +8,7 @@ variables:
 - name: publisherId
   value: 'alm-devops-rangers'
 - name: publicExtensionName
-  value: "Azure Boards Kanban Tools"
+  value: "Kanban Tools for Boards"
 
 name: $(version.MajorMinor)$(rev:.r)
 
@@ -36,7 +36,7 @@ stages:
     steps:
     - task: NodeTool@0
       inputs:
-        versionSpec: '14.x'
+        versionSpec: '22.x'
     - template: build.yml@pipeline-templates
     - template: package.yml@pipeline-templates
       parameters:
